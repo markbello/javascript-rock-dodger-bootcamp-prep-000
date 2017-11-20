@@ -132,7 +132,7 @@ function moveDodger(e) {
   // implement me!
   document.addEventListener('keydown', function(e) {
 
-  if(e.which === RIGHT_ARROW) {
+  if(e.which === RIGHT_ARROW){
     e.preventDefault();
     e.stopPropagation();
     moveDodgerRight();
