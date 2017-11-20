@@ -141,7 +141,7 @@ function moveDodger(e) {
     e.stopPropagation();
     moveDodgerLeft();
   }
-})
+});
   /**
    * This function should call `moveDodgerLeft()`
    * if the left arrow is pressed and `moveDodgerRight()`
